@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FROM</title>
+</head>
+<style>
+  body{
+    background-color: #ddebeb;
+    color: rgb(137, 19, 48);
+
+  }
+</style>
+<body>
+
+  <from action="/action.php">
+<h1 align="center">STUDENT REGISTRATION FROM</h1>
+<table>
+  <tr><td>FIRST NAME:</td><td><input type="text"name="fname" ></input></td></tr>
+  <tr><td>LAST NAME:</td><td><input type="text"name="Lname" ></input></td></tr>
+  <tr><td>FATHER'S NAME:</td><td><input type="text"name="Gname" ></input></td></tr>
+  <tr><td>LAST NAME:</td><td><input type="text"name="Mname" ></input></td></tr>
+  <tr><td>MOTHER'S NAME:</td><td><input type="text"name="fname" ></input></td></tr>
+  <tr><td>LAST NAME:</td><td><input type="text"name="fname" ></input></td></tr>
+  <tr><td>DATE OF BIRTH:</td><td><input type="date"name="date" ></input></td></tr>
+  <tr><td>CLASS ROLL NO:</td><td><input type="text"name="ROLL" ></input></td></tr>
+  <tr><td>UNIV ROLL NO:</td><td><input type="digit"name="roll no" ></input></td></tr>
+  <tr><td>STUDENT ID NO:</td><td><input type="number"name="ID NO" ></input></td></tr>
+  <tr><td>GENDER:</td><td><input type="radio"name="gender">MALE<input type="radio"name="gender">FEMALE<input type="radio"name="gender">OTHERS</input></td></tr>
+  <tr><td>EMAIL:</td><td><input type="text"name="MAIL" ></input></td></tr>
+  <tr><td>CONTACT NO :</td><td><input type="number"name="contact" ></input></td></tr>
+</table>
+<h3>SELECT YOUR SEM</h3>
+<select name="SEM">
+    <option value="1st">1st sem</option>
+    <option value="2nd sem">2nd sem</option>
+    <option value="3rd sem">3rd sem</option>
+    <option value="4th sem">4th sem</option>
+    <option value="5th sem">5th sem</option>
+    <option value="6th sem">6th sem</option>
+    <option value="7th sem">7th sem</option>
+    <option value="8th sem">8th sem</option>
+  </select>
+  <h3>SELECT YOUR DEPT</h3>
+  <select name="dept">
+    <option value="IT">IT</option>
+    <option value="CSE">CSE</option>
+    <option value="CSE-AIML">CSE-AIML</option>
+    <option value="CSE-CS">CSE-CS</option>
+    <option value="CSE-DS">CSE-DS</option>
+    <option value="ME">ME</option>
+    <option value="CE">CE</option>
+    <option value="ECE">ECE</option>
+    <option value="EE">EE</option>
+    <option value="CH">CH</option>
+    <option value="AGE">AGE</option>
+    <option value="FT">FT</option>
+    <option value="BT">BT</option>
+  </select>
+  <h3>SELECT YOUR BATCH</h3>
+  <select name="batch">
+    <option value="B1">B1</option>
+    <option value="B2">B2</option>
+    <option value="B3">B3</option>
+  </select>
+  <h3>year</h3>
+  <select name="YEAR">
+   <option value="2024-2025">2024-2025</option>
+  </select>
+  <table>
+  <tr><td>PHOTO:</td><td><input type="file"name="photo"></td>
+    <tr><td>SIGN:</td><td><input type="file"name="sign"></td></tr>
+    </tr>
+    </table>
+    <table></table>
+      <tr><td>PAYMENT STATUS:</td><td><input type="radio"name="status">Paid<input type="radio"name="status">due</td></tr>
+      <br>
+      <tr><td>PAYMENT RECIPT</td><td><input type="file"name="photo"></td></tr>
+      <br>
+      <br>
+      <tr><td><input type="SUBMIT"></td></tr>
+  </table>
+  </from>
+</body>
+</html>
